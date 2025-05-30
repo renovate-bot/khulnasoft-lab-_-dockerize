@@ -4,7 +4,7 @@ ARG LICENSE_FILES=".*\(Dockerfile\|\.go\|\.hcl\|\.mk\|\.sh\)"
 
 FROM ghcr.io/google/addlicense:v1.0.0 AS addlicense
 
-FROM alpine:3.19 AS base
+FROM alpine:3.22 AS base
 WORKDIR /src
 RUN apk add --no-cache cpio findutils git
 
