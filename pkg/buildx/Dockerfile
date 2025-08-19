@@ -26,7 +26,7 @@ ARG PKG_TYPE="deb"
 ARG PKG_DISTRO="debian"
 ARG PKG_DISTRO_ID="11"
 ARG PKG_DISTRO_SUITE="bullseye"
-ARG PKG_BASE_IMAGE="debian:bullseye"
+ARG PKG_BASE_IMAGE="debian:trixie"
 
 # stage used as named context that mounts common/scripts
 # see pkg target in docker-bake.hcl
