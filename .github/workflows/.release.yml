@@ -221,7 +221,7 @@ jobs:
           cat /tmp/summary.txt >> $GITHUB_STEP_SUMMARY
       -
         name: Set outputs
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         id: release-metadata
         with:
           script: |
